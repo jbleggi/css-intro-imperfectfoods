@@ -4,8 +4,39 @@ body {
     color: #453D3D;
 }
 
+h1 {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 0.75px;
+}
+
+article {
+    padding: 20px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
 button { 
     background-color: #b32274;
     color: white;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px; 
+    padding: 7.5px 30px;
+    border-radius: 5px;
+    border-style: none;
 }
